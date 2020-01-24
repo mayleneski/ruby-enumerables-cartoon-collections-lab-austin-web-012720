@@ -21,6 +21,7 @@ end
 def find_the_cheese(array)
 #array.find is going to take each individual item at the  index and check to see if it is included in the 
 # cheese_types array
+
   cheese_types = ["cheddar", "gouda", "camembert"]
   
   array.find do |item|
